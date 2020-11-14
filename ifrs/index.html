@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link href="ifrsng.css" rel="stylesheet">
+        <meta name="viewport" lang="en-us" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="description" content="IFRS">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Wonuolalonge">
+        <link rel="icon" href="ifrsef_favicon_N5n_icon.ico"type="image.icon">
+        <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'> 
+        <link rel="stylesheet" href="https://fonts.google.com/?query=neue+helvetica">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <title>IFRS</title>
+        
+        <header>
+          <img class="logo" src="IFRSEF Logo.png" alt="logo" style="margin: 0 5px;">
+         <span style="cursor:pointer; font: 3em sans-serif;" class="open" onclick="openNav()">&#9776;</span>
+
+         <!-- <div class="overlay"></div> -->
+            
+        </header>
+    </head>
+  <body>
+      <div class="fullscreen-bg">
+          <video loop muted autoplay poster="IFRSEF NG BACKGROUND compressed.mp4" class="fullscreen-bg__video">
+            <source src="IFRSEF NG BACKGROUND compressed.mp4" type="video/webm">
+         </video>
+       </div>  
+       <div class="text">
+            <h1>
+              Welcome to <br>
+              <span>IFRSEF</span>
+              Nigeria.
+              
+            </h1>
+       </div>
+         <div class="nav" id="lay">
+          <!-- <span style='font-size:100px;'>&#9587;</span> -->
+
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9587; </a>
+              <ol>
+                   <div class="content">
+                       <button><li><a href="aboutus.html" class="pg">About us</a></li></button>
+                       </br>
+                       <button><li><a href="governance.html" class="pg">Governance Structure</a></li></button>
+                       </br> 
+                       <button><li><a href="projects.html" class="pg">Ongoing Projects </a></li></button>
+                      </br>
+                      <button><li><a href="newsupdates.html" class="pg"> News Updates</a></li></button>
+                      </br>
+                      <button><li><a href="contact.html" class="pg">Contact Us</a></li></button>
+                      </br>
+                  </div>
+               </ol>
+           </div>   
+  </body>
+   <script>
+    function openNav() {
+      document.getElementById("lay").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("lay").style.height = "0%";
+    }
+    </script>
+</html>
